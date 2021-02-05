@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     border: 0px;
-    padding: 0px;
+    padding: 0px 0px;
 }
 a{
     text-decoration: none;
@@ -9,13 +9,25 @@ a{
 }
 
 /* header */
+.link{
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    background-color: #89c7de;
+      position: fixed;
+      
+}
+.home{
+    
+}
 header{
-    padding: 20px 150px;
+    padding: 100px 200px;
     display: flex;
     justify-content: space-between;
-}
-.link{
-    padding: 20px 0px;
 }
 .streamButton{
     text-align: center;
