@@ -40,7 +40,6 @@ header{
     color: grey;
 
 }
-
 /*footer*/
 footer{
     width: 100%;
@@ -48,9 +47,31 @@ footer{
     color: #fff;
     text-align: center;
     padding: 30px 0;
-    position: absolute;/*←絶対位置*/
     bottom: 0; /*下に固定*/
 }
 footer .copylight {
  font-size: small;
+}
+
+@media screen and (max-width:650px) {
+/* header */
+header{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    padding: 20px 0px;
+    display:none;
+}
+.streamButton{
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    padding: 35px;
+    background: red;
+    border-radius: 5px;
+    color: white;
+}
+ 
 }
