@@ -21,6 +21,13 @@ header{
     border-radius: 5px;
     color: white;
 }
+
+/*main content*/
+.content{
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;/*debug*/
+}
 /*footer*/
 footer{
     width: 100%;
