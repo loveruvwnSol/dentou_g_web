@@ -1,6 +1,18 @@
 body{
     
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    padding: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.streamButton{
+    padding: 15px 0px;
+}
 
 footer .copylight {
  font-size: small;
