@@ -7,8 +7,10 @@ a{
     text-decoration: none;
     color: black;
 }
+
+/* header */
 header{
-    padding: 0px 250px;
+    padding: 20px 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -16,11 +18,23 @@ header{
     padding: 20px 0px;
 }
 .streamButton{
-    padding: 35px 50px;
+    text-align: center;
+    width: 10%;
+    padding: 35px;
     background: red;
     border-radius: 5px;
     color: white;
 }
+
+/* description */
+.description{
+    text-align: center;
+    padding: 0px 150px;
+    font-size: 70%;
+    color: grey;
+
+}
+
 /*footer*/
 footer{
     width: 100%;
