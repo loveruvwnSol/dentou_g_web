@@ -6,12 +6,18 @@ a{
     color: black;
 }
 header{
-    padding: 0px 300px;
+    padding: 0px 250px;
     display: flex;
     justify-content: space-between;
 }
+.link{
+    padding: 20px 0px;
+}
 .streamButton{
-    padding: 15px 0px;
+    padding: 35px 50px;
+    background: red;
+    border-radius: 5px;
+    color: white;
 }
 
 footer .copylight {
