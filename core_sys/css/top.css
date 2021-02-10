@@ -1,0 +1,80 @@
+/* 説明 */
+.description{
+    text-align: center;
+    padding: 0px 150px;
+    font-size: 70%;
+    color: grey;
+
+}
+
+/*メインステージ*/
+.mainstage {
+	padding: 1% 0;
+	width: auto;
+	height: auto;
+	background-color: #E0C4A8;
+	text-align: center
+}
+
+.mainstage-img {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.mainstage-img > img{
+	width: 50%;
+}
+
+/*伝統部門*/
+.dentoubumon {
+	width: 100%;
+	height: 300px;
+	padding-bottom: 10%;
+}
+.dentoubumon > h1{
+	text-align: center;
+}
+.line {
+	width: 33.3%;
+	height: auto;
+	text-align: center;
+	float: left;
+}
+
+.dentoubumon-img {
+	border: dashed 1px silver;
+	width: 33.3%;
+	height: 33.3%;
+	object-fit: fill;
+}
+
+.engeki {
+	background-color: #964628;
+}
+
+.engei {
+	background-color: #E0C4A8;
+}
+
+.ongaku {
+	background-color: #964628;
+}
+@media screen and (max-width : 1696px ){
+/*説明*/
+.description{
+    padding: 0 10px;
+}
+
+/*伝統部門*/
+.dentoubumon{
+    height: 500px;
+}
+.line{
+    width: 100%;
+    height: auto;
+    float:none;
+}
+.line > h3{
+    margin:0px;
+}
+}
