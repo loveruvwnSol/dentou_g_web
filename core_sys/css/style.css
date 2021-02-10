@@ -33,10 +33,20 @@ header{
     text-align: center;
     width: 10%;
     padding: 35px;
-    background: red;
+    background: gray;
     border-radius: 5px;
     color: white;
 }
+
+/* menu */
+.title-character{
+    text-align: center;
+    font-size: 50px;
+}
+.title-character-sub{
+    text-align: center;
+}
+
 /*ハンバーガーボタン*/
 /*----------------------------
 * メニュー開閉ボタン
