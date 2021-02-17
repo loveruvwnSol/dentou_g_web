@@ -2,6 +2,9 @@ body{
     margin: 0px;
     border: 0px;
     padding: 0px 0px;
+    font-family: a-otf-ryumin-pr6n,serif;
+    font-weight: 300;
+    font-style: normal;
 }
 a{
     text-decoration: none;
@@ -41,14 +44,6 @@ header{
     color: white;
 } */
 
-/* menu */
-.title-character{
-    text-align: center;
-    font-size: 50px;
-}
-.title-character-sub{
-    text-align: center;
-}
 
 /*ハンバーガーボタン*/
 /*----------------------------
@@ -107,6 +102,8 @@ header{
     display: none;
 }
 
+
+
 /*main content*/
 .content{
     width:auto;
@@ -139,7 +136,7 @@ footer div p{
     opacity: 1;
 }
 .copylight {
- font-size: small;
+/* font-size: small;*/
 }
 
 
