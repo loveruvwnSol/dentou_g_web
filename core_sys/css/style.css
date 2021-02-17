@@ -2,6 +2,9 @@ body{
     margin: 0px;
     border: 0px;
     padding: 0px 0px;
+    font-family: a-otf-ryumin-pr6n,serif;
+    font-weight: 300;
+    font-style: normal;
 }
 a{
     text-decoration: none;
@@ -59,14 +62,6 @@ header{
     color: white;
 } */
 
-/* menu */
-.title-character{
-    text-align: center;
-    font-size: 50px;
-}
-.title-character-sub{
-    text-align: center;
-}
 
 /*ハンバーガーボタン*/
 /*----------------------------
@@ -125,6 +120,8 @@ header{
     display: none;
 }
 
+
+
 /*main content*/
 .content{
     width:auto;
@@ -137,24 +134,36 @@ header{
 footer{
     width: 100%;
     height: 196px;
-    background-color: #89c7de;
+    background-color: #843D36;
     color: #fff;
     right: 0;
     padding: 0px;
     bottom: 0px; /*下に固定*/
-    display: flex;
 }
 footer div{
-    margin-left: 60%;
+    padding-left: 0%;
 }
 footer div p{
-    flex-direction: column;
+    width: 100%;
     text-align: right;
+    letter-spacing: 0px;
+    color: #FEF4F4;
+    opacity: 1;
 }
 .copylight {
- font-size: small;
+/* font-size: small;*/
+width: 99%;
+padding-right: 1%;
 }
-
+.footer-link-master{
+    padding:111px 0% 0% 0%;
+}
+.footer-link-button{
+    padding-right: 0.5%;
+}
+.footer-smartphone-line-break{
+    display: none;
+}
 
 
 @media screen and (max-width : 1696px ){
@@ -181,5 +190,34 @@ header{
 /*ハンバーガーボタン*/
 .hamburger,.hamburger--elastic{
     display: inline;
+}
+
+/*footer*/
+footer{
+    height: 145px;
+}
+footer div{
+    padding-left: 0%;
+}
+
+footer div p{
+    text-align: right;
+    letter-spacing: 0px;
+    color: #FEF4F4;
+    font-size: 12px;
+}
+.footer-link-master{
+    margin: 0px auto;
+    width: 90%;
+    padding-top:42px;
+    text-align: center;
+}
+.copylight {
+padding-bottom: 3px;
+ font-size: small;
+ text-align: center;
+}
+.footer-smartphone-line-break{
+    display:inline;
 }
 }

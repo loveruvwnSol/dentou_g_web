@@ -25,6 +25,22 @@
 	width: 50%;
 }
 
+/*タイトル　サムネ　など*/
+.title_thumbnail_area{
+    width: 100%;
+    height: 985px;
+    position: relative;
+	background-size:cover;
+	background-image: url("../images/2316353_l.jpg");
+}
+.title-character{
+    position: absolute;
+    padding-right: 5%;
+    font-size:3vh;
+    right: 0;
+    bottom: 0;
+}
+
 /*伝統部門*/
 .dentoubumon {
 	width: 100%;
