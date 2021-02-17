@@ -24,6 +24,32 @@
 .mainstage-img > img{
 	width: 50%;
 }
+/*Live*/
+.live-area{
+	width: 100%;
+	height: 180px;
+	background-color: #843D36;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.live-area li{
+	display: table;
+	list-style: none;
+}
+.live-area li div{
+	display: table-cell;
+	vertical-align: middle;
+}
+#live{
+	width: 100%;
+	color: #FEF4F4;
+	font-size: 30px;
+	text-align: center;	
+}
+.live-area-image{
+	padding-right: 50px;
+}
 
 /*タイトル　サムネ　など*/
 .title_thumbnail_area{
@@ -34,6 +60,7 @@
 	background-image: url("../images/2316353_l.jpg");
 }
 .title-character{
+	color: #FEF4F4;
     position: absolute;
     padding-right: 5%;
     font-size:3vh;
@@ -92,5 +119,11 @@
 }
 .line > h3{
     margin:0px;
+}
+/*Live*/
+.live-area{
+	width: 100%;
+	height: 190px;
+	background-color: #843D36;
 }
 }
