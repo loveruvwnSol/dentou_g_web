@@ -23,6 +23,7 @@ header{
     background-color: #843D36;
     position: fixed;
     white-space: nowrap;
+    z-index:5;
 }
 .header_title{
     color: white;
