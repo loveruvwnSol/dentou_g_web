@@ -10,32 +10,27 @@ a{
 }
 /* header */
 header{
-    margin-top: 0px;
-    width: 2000px;
+    width: 100%;
     padding: 0px 100px;
     display: flex;
     justify-content: space-between;
     background-color: #843D36;
-    line-height: 5px;
     /* position: fixed; */
 }
 
 .header_title{
     color: white;
     font-size: 20px;
+    /* line-height: 5px; */
 }
 
 .header_menu{
-    /* margin-top: 0; */
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    padding: 30px 500px;
-    font-size: 20px;
-    
-      /* position: fixed; */
-      
+    padding: 30px 600px;
+    font-size: 20px;      
 }
 /* .streamButton{
     text-align: center;
