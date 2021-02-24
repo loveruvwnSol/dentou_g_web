@@ -4,7 +4,7 @@ function dateCounter() {
     //現在の日時取得
     var nowDate = new Date();
     //カウントダウンしたい日を設定
-    var anyDate = new Date("2021/03/1 23:59:59");
+    var anyDate = new Date("2021/03/12 13:54:30");
     //日数を計算
     var daysBetween = Math.ceil((anyDate - nowDate)/(1000*60*60*24));
     var ms = (anyDate - nowDate);
