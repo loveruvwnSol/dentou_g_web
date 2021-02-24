@@ -120,6 +120,10 @@
 .line > h3{
     margin:0px;
 }
+/*タイトル画像付近*/
+.title_thumbnail_area{
+	height: 700px;
+}
 /*Live*/
 .live-area{
 	width: 100%;
