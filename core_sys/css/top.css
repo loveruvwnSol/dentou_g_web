@@ -4,7 +4,16 @@
     padding: 0px 150px;
     font-size: 70%;
     color: grey;
-
+}
+.description_images{
+    display: flex;
+	justify-content: space-around;
+}
+.ProjectN_img{
+    width: 30%;
+}
+.Al_logo_img{
+    width: 15%;
 }
 
 /*メインステージ*/
@@ -68,11 +77,33 @@
     bottom: 0;
 }
 
+/*メインステージ*/
+.content{
+    width:auto;
+    height: 100%;
+    /* background-color: #849765;debug */
+	margin-bottom: 100px;
+	padding: 50px 150px;
+}
+.mainstage{
+	background: #849765;
+}
+.mainstage-title{
+	color: gray;
+	font-size: 30px;
+	text-decoration: underline;
+	text-align: center;
+}
 /*伝統部門*/
 .dentoubumon {
 	width: 100%;
 	height: 300px;
 	padding-bottom: 10%;
+	color: white;
+}
+.dentoubumon-title{
+	text-decoration: underline;
+	color: gray;
 }
 .dentoubumon > h1{
 	text-align: center;
@@ -96,7 +127,7 @@
 }
 
 .engei {
-	background-color: #E0C4A8;
+	background-color: #849765;
 }
 
 .ongaku {
