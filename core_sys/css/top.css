@@ -54,7 +54,7 @@
 /*タイトル　サムネ　など*/
 .title_thumbnail_area{
     width: 100%;
-    height: 985px;
+    height: 900px;
     position: relative;
 	background-size:cover;
 	background-image: url("../images/2316353_l.jpg");
@@ -102,7 +102,7 @@
 .ongaku {
 	background-color: #964628;
 }
-@media screen and (max-width : 1696px ){
+@media screen and (max-width : 750px ){
 /*説明*/
 .description{
     padding: 0 10px;

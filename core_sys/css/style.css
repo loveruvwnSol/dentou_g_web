@@ -167,7 +167,7 @@ padding-right: 1%;
 }
 
 
-@media screen and (max-width : 1696px ){
+@media screen and (max-width : 750px ){
 /* header */
 header{
     padding: 0;
