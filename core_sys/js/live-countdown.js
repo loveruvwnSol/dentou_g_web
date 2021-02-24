@@ -4,9 +4,11 @@ function dateCounter() {
     //現在の日時取得
     var nowDate = new Date();
     //カウントダウンしたい日を設定
-    var anyDate = new Date("2021/03/12 13:54:30");
+    var anyDate = new Date("2021/03/12 13:54:30");//2月中は目をつぶってください
+    //var anyDate = new Date("2021/02/12 13:54:30");//デバッグ用
     //日数を計算
-    var daysBetween = Math.ceil((anyDate - nowDate)/(1000*60*60*24));
+    //var daysBetween = Math.ceil((anyDate - nowDate)/(1000*60*60*24));
+    var daysBetween = anyDate.getDay() - nowDate.getDay();
     var ms = (anyDate - nowDate);
     if (ms >= 0) {
         //時間を取得
@@ -22,10 +24,10 @@ function dateCounter() {
  
         if ((h == 0) && (m == 0) && (s == 0)) {
         clearInterval(timer);
-        document.getElementById("live").innerHTML = "経過しました";
+        document.getElementById("live").innerHTML = "<a href=https://youtu.be/6jBMaeR8qNA>配信中！</a>"
         }
     }else{
-        document.getElementById("live").innerHTML = "経過しました";
+        document.getElementById("live").innerHTML = "<a href=https://youtu.be/6jBMaeR8qNA>配信中！</a>";
     }
     }, 1000);
 }
