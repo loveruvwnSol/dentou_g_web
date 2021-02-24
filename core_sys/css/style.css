@@ -30,15 +30,23 @@ header{
     color: #FEF4F4;
     font-size: 20px;
     line-height: 23px;
-    padding: 0px 150px;
+    padding: 0px 10%;
 }
 .header_menu{
     width: 100%;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    padding: 50px 110px;
+    padding: 50px 10%;
     font-size: 20px;
+}
+@media screen and (max-width : 1080px ){
+.header_title{
+    padding: 0px 3%;
+}
+.header_menu{
+    padding: 50px 3%;
+}
 }
 .header_menu a::after{
     position: absolute;
@@ -193,6 +201,7 @@ display: none;
 /*footer*/
 footer{
     height: 145px;
+    margin-top: 10px;
 }
 footer div{
     padding-left: 0%;

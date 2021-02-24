@@ -157,9 +157,25 @@
 }
 /*Live*/
 #live{
-	font-size: 24px;
+	font-size: 18px;
 }
 .live-area-image{
-	padding-right: 20px;
+	padding-right: 0px;
+}
+.live-area li div{
+	display:block;
+	justify-content: center;
+	text-align: center;
+}
+/*コンテンツ*/
+.content{
+	padding: 0px;
+}
+}
+
+/*タイトルの画像位置調整*/
+@media screen and (max-width : 1080px ){
+.title_thumbnail_area{
+	background-position: right bottom ;
 }
 }
