@@ -62,8 +62,6 @@ header{
     border-radius: 5px;
     color: white;
 } */
-
-
 /*ハンバーガーボタン*/
 /*----------------------------
 * メニュー開閉ボタン
@@ -119,16 +117,6 @@ header{
   }
  .hamburger,.hamburger--elastic{
     display: none;
-}
-
-
-
-/*main content*/
-.content{
-    width:auto;
-    height: 100%;
-    background-color: antiquewhite;/*debug*/
-	margin-bottom: 100px;
 }
 
 /*footer*/
