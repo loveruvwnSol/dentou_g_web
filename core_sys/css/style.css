@@ -29,14 +29,14 @@ header{
     color: white;
     font-size: 20px;
     line-height: 23px;
-    padding: 0px 200px;
+    padding: 0px 150px;
 }
 .header_menu{
     width: 100%;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    padding: 50px 210px;
+    padding: 50px 110px;
     font-size: 20px;
 }
 .header_menu a::after{
