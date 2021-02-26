@@ -33,6 +33,39 @@
 .mainstage-img > img{
 	width: 50%;
 }
+
+/*タイトル　サムネ　など*/
+.title_thumbnail_area{
+    width: 100%;
+    height: 1400px;
+    position: relative;
+	background-size:cover;
+	background-image: url("../images/top-texture.png");
+	background-color: #00793D;
+}
+.title-center{
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	padding-top: 10%;
+	text-align: center
+;
+}
+.title-character{
+	width: 40%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+    top: 30%;
+	right: 31.1%;
+	z-index: 2;
+	font-size: 250%;
+}
+.title-image{
+	width: 100%;
+	height: 100%;
+}
 /*Live*/
 .live-area{
 	width: 100%;
@@ -52,29 +85,24 @@
 }
 #live{
 	width: 100%;
-	color: #FEF4F4;
-	font-size: 30px;
+	color: black;
+	font-size: 50px;
 	text-align: center;	
 }
 .live-area-image{
 	padding-right: 50px;
 }
 
-/*タイトル　サムネ　など*/
+@media screen and (max-width : 1080px ){
 .title_thumbnail_area{
-    width: 100%;
-    height: 900px;
-    position: relative;
-	background-size:cover;
-	background-image: url("../images/2316353_l.jpg");
+height: 1000px;
 }
 .title-character{
-	color: #FEF4F4;
-    position: absolute;
-    padding-right: 5%;
-    font-size:3vh;
-    right: 0;
-    bottom: 0;
+	font-size: 180%;
+}
+#live{
+	font-size: 20px;
+}
 }
 
 /*メインステージ*/
@@ -151,13 +179,40 @@
 .line > h3{
     margin:0px;
 }
-/*タイトル画像付近*/
+/*タイトル　サムネ　など*/
 .title_thumbnail_area{
-	height: 700px;
+    width: 100%;
+    height: 900px;
+    position: relative;
+	background-size:cover;
+	background-image: url("../images/top-texture.png");
+	background-color: #00793D;
 }
-/*Live*/
+.title-center{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 15%;
+	text-align: center
+;
+}
+.title-character{
+	width: 80%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+    top: 43%;
+	right: 11.1%;
+	z-index: 2;
+	font-size: 100%;
+}
+.title-image{
+	width: 100%;
+	height: 100%;
+}/*Live*/
 #live{
-	font-size: 18px;
+	font-size: 16px;
 }
 .live-area-image{
 	padding-right: 0px;
@@ -176,6 +231,5 @@
 /*タイトルの画像位置調整*/
 @media screen and (max-width : 1080px ){
 .title_thumbnail_area{
-	background-position: right bottom ;
 }
 }

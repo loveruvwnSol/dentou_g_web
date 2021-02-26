@@ -10,7 +10,7 @@ a{
     text-decoration: none;
     position: relative;
     display: inline-block;
-    color: #FEF4F4;
+    color: black;
 
 }
 /* header */
@@ -21,13 +21,13 @@ header{
     /* padding: 0px 100px; */
     display: flex;
     justify-content: space-between;
-    background-color: #843D36;
+    background-color: #FEF4F4;
     position: fixed;
     white-space: nowrap;
+    color: black;
     z-index:5;
 }
 .header_title{
-    color: #FEF4F4;
     font-size: 20px;
     line-height: 23px;
     padding: 0px 10%;
@@ -37,7 +37,7 @@ header{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    padding: 50px 10%;
+    padding: 20px 10%;
     font-size: 20px;
 }
 @media screen and (max-width : 1080px ){
@@ -45,7 +45,7 @@ header{
     padding: 0px 3%;
 }
 .header_menu{
-    padding: 50px 3%;
+    padding: 25px 3%;
 }
 }
 .header_menu a::after{
