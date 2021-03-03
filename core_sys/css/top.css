@@ -92,6 +92,34 @@
 .live-area-image{
 	padding-right: 50px;
 }
+/*maincontents*/
+.maincontents-area{
+	margin: 0% 10%;
+	background-image: url("../images/top_bk_image.png");
+
+}
+.main_caution{
+	text-align: center;
+	margin: 0% 10%;
+}
+.main_caution_1{
+	padding-top: 300px;
+}
+.main_caution_2{
+	padding-top: 20px;
+}
+.main_icon{
+	width: 300px;
+	height: 300px;
+}
+.maincontents-bg_image{
+	width: 100%;
+	height: 205.4%;
+	/*height: 3709px;*/
+	background-position: top center;
+	background-size:  cover;
+	z-index: 0;
+}
 
 @media screen and (max-width : 1080px ){
 .title_thumbnail_area{
