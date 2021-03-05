@@ -20,6 +20,9 @@ img {
     -webkit-user-select: none; /* Safari、Chromeなど */
     -ms-user-select: none; /* IE10かららしい */
   }
+  .kinzitu{
+      text-align: center;
+  }
 /* header */
 header{
     top: 0;
