@@ -58,15 +58,22 @@
 
     .desktop{
     display: none;
+    }
 }
-
-
 
 /* text-2 */
-.text-2{
-   
+.text-2Element2{
+    margin-top: 40%;
 }
-.text2_logo_hana{
+.text-2Element3{
+    margin-top: 40%;
+    margin-bottom: 20%;
+}
+/* text-3 */
+.text-3{
+    text-align: center;
+}
+.text3_logo_hana{
     margin: 150px 0px;
 }
 .official-site-link{
@@ -128,4 +135,60 @@
 }
 .konpirakabuki{
     margin: 100px 0px;
+}
+
+/* manga */
+.manga-area{
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.arrow-right{
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+  }
+  .arrow-right::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-top: solid 2px red;
+    border-right: solid 2px red;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -4px;
+    transition: all 5s;
+  }
+  .arrow-right:hover{
+      opacity: 0.5;
+  }
+
+  .arrow-left{
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+  }
+  .arrow-left::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-top: solid 2px red;
+    border-right: solid 2px red;
+    -ms-transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -4px;
+    transition: all 5s;
+  }
+  .arrow-left:hover{
+    opacity: 0.5;
 }
