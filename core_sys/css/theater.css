@@ -49,3 +49,72 @@
     margin-top: 7%;
     text-align: center;
 }
+
+
+/* text-2 */
+.text-2{
+   
+}
+.text2_logo_hana{
+    margin: 150px 0px;
+}
+.official-site-link{
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+.theater_information{
+    margin: 200px 0px;
+}
+.Tokyo{
+    margin: 100px 0px;
+}
+.kabuki-za{
+    margin: 100px 0px;
+}
+.kokuritsu{
+    margin: 100px 0px;
+}
+.asakusa-koukaidou{
+    margin: 100px 0px;
+}
+.shinbashi-enbujo{
+    margin: 100px 0px;
+}
+.meijiza{
+    margin: 100px 0px;
+}
+.under_construction{
+    color: red;
+}
+
+.nagoya{
+    margin: 200px 0px;
+}
+.misonoza{
+    margin: 100px 0px;
+}
+
+.kyoto_osaka{
+    margin: 200px 0px;
+}
+.kyoto-sijou{
+    margin: 100px 0px;
+}
+.osaka-kabuki-za{
+    margin: 100px 0px;
+}
+
+.hukuoka{
+    margin: 200px 0px;
+}
+.hakataza{
+    margin: 100px 0px;
+}
+
+.kagawa{
+    margin: 200px 0px;
+}
+.konpirakabuki{
+    margin: 100px 0px;
+}
