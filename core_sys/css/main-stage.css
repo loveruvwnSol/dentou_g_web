@@ -1,0 +1,9 @@
+/*タイトル　サムネ　など*/
+.title_thumbnail_area{
+    width: 100%;
+    height: 1400px;
+    position: relative;
+	background-size:cover;
+	background-image: url("../images/top-texture.png");
+	background-color: #fff;
+}

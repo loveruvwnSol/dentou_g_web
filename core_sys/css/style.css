@@ -237,4 +237,14 @@ padding-bottom: 3px;
 .footer-smartphone-line-break{
     display:inline;
 }
+
+.footer-images{
+   text-align: center;
+}
+.footer-img-proN{
+    width: 50%;
+}
+.footer-img-Al{
+     width: 25%;
+}
 }
