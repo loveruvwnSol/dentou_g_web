@@ -13,7 +13,6 @@
     margin: 20% 30% 0% 30%;
 }
 
-
 /*character*/
 .root_character{
 
@@ -29,6 +28,12 @@
     height: 1000px;
 }
 .desktop{
+    display: inline;
+}
+.mobile{
+    width: 100%;
+    height: auto;
+    display: none;
 }
 .left{
     float: left;
@@ -46,6 +51,9 @@
     margin-top: 7%;
     text-align: center;
 }
+.m_character_text{
+    font-size: 70%;
+}
 @media screen and (max-width : 1080px ){
     .text-1{
         margin: 10% 15% 0% 15%;
@@ -58,6 +66,15 @@
 
     .desktop{
     display: none;
+    }
+    .mobile{
+        display: inline;
+    }
+}
+
+.m_character_img img{
+    width: 100%;
+    height: auto;
 }
 
 
