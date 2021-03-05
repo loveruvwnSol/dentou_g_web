@@ -7,3 +7,11 @@
 	background-image: url("../images/top-texture.png");
 	background-color: #ED1C24;
 }
+
+/*contents*/
+.maincontents-area{
+    text-align: center;
+}
+.text-1{
+    margin: 20% 30% 10% 30%;
+}
