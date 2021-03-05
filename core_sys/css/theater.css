@@ -11,6 +11,7 @@
 }
 .text-1{
     margin: 20% 30% 0% 30%;
+    font-family: source-han-sans-japanese, sans-serif;
 }
 
 /*character*/
@@ -45,6 +46,7 @@
     height: 100%;
 }
 .character_text{
+    font-family: source-han-sans-japanese, sans-serif;
     width: 40%;
     height: auto;
     float: left;
