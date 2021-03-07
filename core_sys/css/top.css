@@ -52,13 +52,13 @@
 ;
 }
 .title-character{
-	width: 40%;
+	width: 60%;
 	height: 100%;
 	text-align: center;
 	vertical-align: middle;
 	position: absolute;
     top: 25%;
-	right: 31.1%;
+	right: 20%;
 	z-index: 2;
 	font-size: 250%;
 }
@@ -227,7 +227,7 @@ height: 1000px;
 .ongaku {
 	background-color: #964628;
 }
-@media screen and (max-width : 750px ){
+@media screen and (max-width : 768px ){
 /*説明*/
 .description{
     padding: 0 10px;
@@ -279,6 +279,10 @@ height: 1000px;
 	right: 11.1%;
 	z-index: 2;
 	font-size: 100%;
+}
+.title-character h2 nobr{
+width: 100%;
+height: auto;
 }
 .title-image{
 	width: 100%;

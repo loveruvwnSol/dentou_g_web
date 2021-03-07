@@ -10,13 +10,14 @@
                 scriptTimeout: 3000,
                 async: true
             },
-                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+            h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
         })(document);
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../core_sys/css/hamburgers.css">
     <link rel="stylesheet" href="../core_sys/css/style.css">
     <link rel="stylesheet" href="../core_sys/css/theater.css">
+    <link rel="stylesheet" href="../core_sys/css/theater_change_image.css">
     <title>演劇</title>
 </head>
 
@@ -72,6 +73,7 @@
                 魅惑の世界へ、ようこそ。
             </p>
         </div>
+        <h1><a href="#main_area">すぐに漫画を読む</a></h1>
         <div class="root_character">
             <div class="character_name">
                 <img class="character_img" src="../core_sys/images/theater/logo_hana.png" alt="">
@@ -268,18 +270,13 @@
 
             </div>
         </div>
-        <div class="manga-area">
-            <div class="arrow-left"></div>
-            <img src="../core_sys/images/theater_manga_test/webサイズ確認.jpg">
-            <img src="../core_sys/images/theater_manga_test/webサイズ確認.jpg">
-            <div class="arrow-right"></div>
+        <div class="content_area">
+            <div id="back" class="arrow-left" onclick="back_page()"></div>
+            <div class="area_setting">
+                <img id="main_area" src="" alt="">
+            </div>
+            <div id="next" class="arrow-right" onclick="next_page()"></div>
         </div>
-        <!-- <div class="manga-area">
-            <img class="manga-image1" src="../core_sys/images/theater_manga/歌舞伎解説漫画.jpg">
-            <input type="button" onclick="nextpage1()" value="image1">
-            <input type="button" onclick="nextpage2()" value="image2">
-            <input type="button" onclick="nextpage3()" value="image3">
-        </div> -->
 
         <div class="text-3">
             <img class="text3_logo_hana" src="../core_sys/images/theater/logo_hana.png" alt="">
@@ -399,6 +396,7 @@
     </footer>
     <script src="../core_sys/js/jquery-3.5.1.min.js"></script>
     <script src="../core_sys/js/dentou.js"></script>
+    <script src="../core_sys/js/change.js"></script>
 </body>
 
 </html>

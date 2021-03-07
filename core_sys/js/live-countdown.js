@@ -87,7 +87,7 @@ function CountdownTimer(elm, tl, mes) {
       var tl = end;
     } // 期間中
     else if (myS > myD) {
-      var text = '開催まで';
+      var text = '生放送まで';
       var tl = start;
     } // 開始日前
     else {
