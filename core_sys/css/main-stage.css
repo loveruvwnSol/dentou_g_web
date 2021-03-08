@@ -5,11 +5,12 @@
 	background-color: #fff;
 }
 .maincontents-area{
+	margin: 0% 20%;
 	text-align: center;
 }
 /*テキスト１*/
 .text1{
-	padding: 5% 20%;
+	padding: 5% 5%;
 }
 .text1 img{
 	padding-top:  10%;
@@ -22,9 +23,10 @@
 }
 /*生放送*/
 .namahousou_size{
-	margin: 0% 20% 20% 20%;
+	margin-bottom: 20%;
 	width: 60%;
 	height: auto;
+	margin: 0% 20%;
 }
 .namahousou{
 	position: relative;
@@ -42,6 +44,7 @@
 /*コンテンツのテンプレート*/
 .content_template{
 	margin-top: 20%;
+	padding: 0% 10%;
 }
 .content_template h2{
 	padding-top: 8%;
@@ -54,4 +57,17 @@
 }
 .content_template *{
 	font-weight:unset;
+}
+@media screen and (max-width : 750px ){
+.content_template{
+	font-size: small;
+}
+img{
+	width: 60%;
+	height: auto;
+}
+.namahousou_size{
+	margin: 0%;
+	width: 100%;
+}
 }
