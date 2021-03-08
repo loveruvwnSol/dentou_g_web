@@ -4,14 +4,77 @@
 	background-image: url("../images/top-texture.png");
 	background-color: #825C8C;
 }
+h2{
+	font-weight:unset;
+}
 /*contents*/
 .maincontents-area{
     text-align: center;
+	margin: 0% 20%;
 }
 .text1{
 	padding: 10% 20%;
 	font-family: source-han-sans-japanese, sans-serif;
 }
-.text1 h1{
-	font-weight:unset;
+.text1 img{
+	padding-top: 20%;
+}
+/*生放送*/
+.namahousou_size{
+	margin-bottom: 20%;
+	width: 60%;
+	height: auto;
+	margin: 0% 20%;
+}
+.namahousou{
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;
+}
+.namahousou iframe{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.text2 p {
+	margin-bottom: 10%;
+}
+
+.Introduction{
+	margin: 25% 10%;
+	text-align: start;
+}
+.Introduction img{
+	width: 100%;
+}
+
+/*Q&A*/
+.QandA_area{
+	margin-top: 10%;
+}
+.QandA{
+	margin: 5% 0%;
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+.QandA_icon{
+	width: 10%;
+	height: auto;
+}
+.QandA_icon img{
+	width: 100%;
+	height: auto;
+}
+.QandA_text{
+	width: 90%;
+	height: auto;
+	padding-left: 5%;
+	text-align: start;
+}
+@media screen and (max-width : 750px ){
+
 }
