@@ -245,16 +245,17 @@ img {
   }
   @media screen and (max-width : 750px ){
   .content_area{
-    width: 100%;
+    width: calc(100% - 20px);
     height: auto;
     padding: 0px 10px;
+    display: initial;
   }
   .content_area img{
     width: 100%;
     height: auto;
   }
   .arrow-right{
-    padding-left: 35px;
+    padding-left: 0px;
   }
   .arrow-left{
     padding-left:0px;
