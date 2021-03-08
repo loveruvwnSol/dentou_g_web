@@ -80,16 +80,24 @@
 }
 
 /* text-2 */
+.text_2{
+
+}
+.text-2Element1{
+    font-family: source-han-sans-japanese, sans-serif;
+}
 .text-2Element2{
     margin-top: 40%;
 }
 .text-2Element3{
     margin-top: 40%;
     margin-bottom: 20%;
+    font-family: source-han-sans-japanese, sans-serif;
 }
 /* text-3 */
 .text-3{
     text-align: center;
+    font-family: source-han-sans-japanese, sans-serif;
 }
 .text3_logo_hana{
     margin: 150px 0px;
