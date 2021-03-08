@@ -4,3 +4,14 @@
 	background-image: url("../images/top-texture.png");
 	background-color: #825C8C;
 }
+/*contents*/
+.maincontents-area{
+    text-align: center;
+}
+.text1{
+	padding: 10% 20%;
+	font-family: source-han-sans-japanese, sans-serif;
+}
+.text1 h1{
+	font-weight:unset;
+}
