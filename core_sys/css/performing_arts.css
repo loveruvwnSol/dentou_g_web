@@ -31,10 +31,11 @@
 
 /* area_3 */
 .area_3{
-	padding: 0px 300px;
+	padding: 0px 290px;
 	text-align: left;
 }
-.talk_area{
+
+.talk_area_1{
 	
 }
 .talkN{
@@ -61,10 +62,19 @@
 }
 
 /* トークの途中 */
-.talk_onTheWay{
+.talk_onTheWay_1{
 	display: flex;
 	flex-direction: column;
+	margin: 0% 0% 40% 0%;
 }
 .blue_flower_talk_onTheWay{
 	margin: 30% 30% 0% 30%;
+}
+.talk_onTheWay_sentence{
+	text-align: center;
+}
+
+.talk_onTheWay_2{
+	text-align: center;
+	margin: 0% 0% 40% 0%;
 }
