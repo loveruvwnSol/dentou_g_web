@@ -76,5 +76,25 @@ h2{
 	text-align: start;
 }
 @media screen and (max-width : 750px ){
-
+	.text1{
+		padding:10% 5%;
+	}
+	.maincontents-area{
+		margin: 0% 5%;
+		font-size: small;
+	}
+	.maincontents-area.content2{
+		font-size: medium;
+		padding: 5% 10%;
+	}
+	.logo-size{
+		margin: 10% 0%;
+		width: 50%;
+	}
+	.Introduction{
+		margin: 0%;
+	}
+	.QandA_area img{
+		width: 100%;
+	}
 }
