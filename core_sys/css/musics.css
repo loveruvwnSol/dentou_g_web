@@ -75,6 +75,10 @@ h2{
 	padding-left: 5%;
 	text-align: start;
 }
+.QandA_area img{
+	padding: 10% 0%;
+	width: 100%;
+}
 @media screen and (max-width : 750px ){
 	.text1{
 		padding:10% 5%;
@@ -93,8 +97,5 @@ h2{
 	}
 	.Introduction{
 		margin: 0%;
-	}
-	.QandA_area img{
-		width: 100%;
 	}
 }
