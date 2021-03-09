@@ -23,7 +23,7 @@
 }
 .Introduction_of_people{
 	text-align: left;
-	padding: 0px 160px
+	padding: 0px 0px 0px 160px;
 }
 .letsTalk{
 	margin: 40% 30% 0% 30%;
@@ -31,7 +31,7 @@
 
 /* area_3 */
 .area_3{
-	padding: 0px 290px;
+	padding: 0px 0px 0px 290px;
 	text-align: left;
 }
 
@@ -65,7 +65,7 @@
 .talk_onTheWay_1{
 	display: flex;
 	flex-direction: column;
-	margin: 0% 0% 40% 0%;
+	margin: 0% 25% 40% 0%;
 }
 .blue_flower_talk_onTheWay{
 	margin: 30% 30% 0% 30%;
@@ -74,7 +74,76 @@
 	text-align: center;
 }
 
-.talk_onTheWay_2{
+/* last */
+.last_Introduction{
+	display: flex;
+	flex-direction: column;
+}
+.last_Introduction_img{
+	width: 50%;
+	padding: 0px 0px 0px 150px;
+}
+.last_Introduction_sentence{
 	text-align: center;
-	margin: 0% 0% 40% 0%;
+	padding: 0px 300px 0px 0px;
+}
+
+
+
+
+@media screen and (max-width : 750px ){
+	body{
+		font-size: 11px;
+	}
+	.letsTalk{
+		font-size: 11px;
+	}
+	.area_1{
+		margin : 0px;
+	}
+	.area_2{
+		margin: 0px;
+		padding: 0px 0px;
+	}
+	.area_3{
+		padding: 0px 0px;
+		font-size: 1px;
+	}
+	.blue_flower{
+		margin: 30% 0% 0% 0%;
+		width: 50%;
+	}
+	.Image_of_person{
+		width: 100%;
+	}
+	.Introduction_of_people{
+		padding: 0px 0px;
+	}
+	.last_Introduction_img{
+		width: 70%;
+		padding: 0px 0px 0px 50px;
+	}
+	.last_Introduction_sentence{
+		text-align: center;
+		padding: 0px 0px 0px 0px;
+	}
+	.N_icon{
+		width: 20%;
+	}
+	.talkN_Sentence{
+		padding: 60px 0px 0px 20px;
+	}
+	.katura_icon{
+		width: 20%;
+	}
+	.talkKatura_Sentence{
+		padding: 20px 20px;
+	}
+
+	.talk_onTheWay_1{
+		margin: 0% 0% 40% 0%;
+	}
+	.blue_flower_talk_onTheWay{
+		margin: 30% 30% 0% 30%;
+	}
 }
