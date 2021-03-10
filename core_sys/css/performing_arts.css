@@ -19,11 +19,11 @@
 
 /* area_2 */
 .area_2{
-	/* padding: 0px 160px; */
+width: 80%;
+margin: 0% 10%;
 }
 .Introduction_of_people{
 	text-align: left;
-	padding: 0px 0px 0px 160px;
 }
 .letsTalk{
 	margin: 40% 30% 0% 30%;
@@ -87,7 +87,9 @@
 	text-align: center;
 	padding: 0px 300px 0px 0px;
 }
-
+.Image_of_person{
+	width: 100%;
+}
 
 
 
@@ -102,7 +104,6 @@
 		margin : 0px;
 	}
 	.area_2{
-		margin: 0px;
 		padding: 0px 0px;
 	}
 	.area_3{
