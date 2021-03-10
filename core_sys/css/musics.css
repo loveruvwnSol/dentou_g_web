@@ -54,6 +54,7 @@ h2{
 /*Q&A*/
 .QandA_area{
 	margin-top: 10%;
+	font-family: source-han-sans-japanese, sans-serif;
 }
 .QandA{
 	margin: 5% 0%;
@@ -79,6 +80,37 @@ h2{
 	padding: 10% 0%;
 	width: 100%;
 }
+.logo-size{
+	margin-top: 30%;
+}
+.text3{
+	margin-top: 40%;
+}
+.text3 .t1{
+	padding-top: 30%;
+}
+.bottom-img{
+	margin-top: 20%;
+width: 100%;
+text-align: center;
+}
+.bottom-img img{
+	margin-top: 10%;
+	padding: 0% 5%;
+	width: 40%;
+	height: auto;
+}
+.bottom-img .img1{
+	width: 80%;
+}
+@media screen and (min-width : 1080px ){
+	.bottom-img img{
+		width: 25%;
+	}
+	.bottom-img .img1{
+		width: 40%;
+	}
+}
 @media screen and (max-width : 750px ){
 	.text1{
 		padding:10% 5%;
@@ -97,5 +129,9 @@ h2{
 	}
 	.Introduction{
 		margin: 0%;
+	}
+	.bottom-img .img1{
+		width: 80%;
+		padding: 0px;
 	}
 }
