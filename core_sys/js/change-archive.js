@@ -3,8 +3,9 @@ var now_page = 0;
 var back_button = document.getElementById("back");
 var next_button = document.getElementById("next");
 var is_pc = false; 
+var max_page = 0;
 function next_page(){
-    if(now_page + 1 <= 20){
+    if(now_page + 1 <= max_page){
         now_page++;
         console.log(now_page);
         chack_button_visibility ();
@@ -30,7 +31,7 @@ function chack_button_visibility (){
             back_button.style.visibility  ="hidden";
             next_button.style.visibility  ="visible";
             break;
-        case 20:
+        case max_page:
             back_button.style.visibility  ="visible";
             next_button.style.visibility  ="hidden";
             break;
@@ -44,16 +45,16 @@ function Get_PCorMOBILE_Page(){
     var path;
     if(is_pc)//PCの場合
     {
-        return "../../core_sys/images/main-stage/archive/desktop/" + now_page + ".jpg";
+        return "../../core_sys/images/main-stage/archive/desktop/desktop_" + now_page + ".png";
     }else{
-        return "../../core_sys/images/main-stage/archive/mobile/" + now_page + ".jpg";
+        return "../../core_sys/images/main-stage/archive/mobile/mobile_" + now_page + ".png";
     }
 }
-function Get_Max_Page(){
+function Set_Max_Page(){
     if(is_pc){
-        return 111;
+        max_page = 6;
     }else{
-        return 222;
+        max_page = 13;
     }
 }
 window.onload = function(){
@@ -62,7 +63,7 @@ window.onload = function(){
     if(1080 < window.innerWidth){
         is_pc = true;
     }
-    console.log(Get_Max_Page());
+    Set_Max_Page();
     load_page();
     
 }

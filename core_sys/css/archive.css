@@ -8,11 +8,11 @@ img {
     -ms-user-select: none; /* IE10かららしい */
   }
   .content_area{
-      height: 1000px;
+      height: 600px;
       padding: 0px 100px;
       display: flex;
       justify-content: space-between;
-      margin: 0% 15%;
+      margin: 10% 0%;
   }
   .content_area img{
     height: 100%;
