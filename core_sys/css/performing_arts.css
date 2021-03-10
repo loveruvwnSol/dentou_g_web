@@ -11,6 +11,9 @@
 .blue_flower{
 	margin: 30% 30% 20% 30%;
 }
+.blue_flower_2{
+	margin: 30% 30% 20% 30%;
+}
 
 /* area_1 */
 .area_1{
@@ -80,7 +83,7 @@ margin: 0% 10%;
 .talk_onTheWay_1{
 	display: flex;
 	flex-direction: column;
-	margin: 0% 25% 40% 0%;
+	margin: 0% 15% 40% 0%;
 }
 .blue_flower_talk_onTheWay{
 	margin: 30% 30% 0% 30%;
@@ -96,7 +99,7 @@ margin: 0% 10%;
 }
 .last_Introduction_img{
 	width: 50%;
-	padding: 0px 0px 0px 150px;
+	padding: 0px 0px 0px 270px;
 }
 .last_Introduction_sentence{
 	text-align: center;
@@ -105,6 +108,19 @@ margin: 0% 10%;
 .Image_of_person{
 	width: 100%;
 }
+
+.youtube {
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;
+  }
+  .youtube iframe {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+  }
 
 
 
@@ -127,6 +143,10 @@ margin: 0% 10%;
 	}
 	.blue_flower{
 		margin: 30% 0% 0% 0%;
+		width: 50%;
+	}
+	.blue_flower_2{
+		margin: 30% 0% 0% 25%;
 		width: 50%;
 	}
 	.Image_of_person{
