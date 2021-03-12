@@ -103,6 +103,11 @@ text-align: center;
 .bottom-img .img1{
 	width: 80%;
 }
+
+/*緊急対応*/
+.bottom-img.img{
+	margin: 0%;
+}
 @media screen and (min-width : 1080px ){
 	.bottom-img img{
 		width: 25%;
