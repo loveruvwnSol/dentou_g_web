@@ -79,3 +79,97 @@ img {
       margin: 0%;
     }
   }
+
+  /* manga */
+img {
+  pointer-events: none;
+  user-select: none; /* CSS3 */
+  -moz-user-select: none; /* Firefox */
+  -webkit-user-select: none; /* Safari、Chromeなど */
+  -ms-user-select: none; /* IE10かららしい */
+}
+.content_area{
+    height: 1000px;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 15%;
+}
+.content_area img{
+  height: 100%;
+  width: auto;
+}
+.arrow-right{
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+  }
+  .arrow-right::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-top: solid 2px red;
+    border-right: solid 2px red;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -4px;
+  }
+  .arrow-right:hover{
+      opacity: 0.5;
+  }
+
+  .arrow-left{
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+  }
+  .arrow-left::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-top: solid 2px red;
+    border-right: solid 2px red;
+    -ms-transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -4px;
+  }
+  .arrow-left:hover{
+    opacity: 0.5;
+}
+
+.area_setting {
+  height: 100%;
+  width: auto;
+  margin: 1% 3%;
+}
+.manga_center{
+  text-align: center;
+  margin: 10%;
+}
+@media screen and (max-width : 1080px ){
+  .area_setting{
+    margin: 0%;
+  }
+  .content_area{
+    padding: 0%;
+    margin: 0%;
+    height: auto;
+    width: 100%;
+    display: initial;
+  }
+  .content_area img{
+    width: 90%;
+    height: auto;
+    margin: 10% 5%;
+  }
+}
