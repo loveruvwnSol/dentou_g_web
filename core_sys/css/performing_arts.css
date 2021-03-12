@@ -37,7 +37,7 @@ margin: 0% 10%;
 
 /* area_3 */
 .area_3{
-	padding: 0px 0px 0px 290px;
+	padding: 0px 0px 0px 260px;
 	text-align: left;
 }
 
@@ -83,10 +83,10 @@ margin: 0% 10%;
 .talk_onTheWay_1{
 	display: flex;
 	flex-direction: column;
-	margin: 0% 15% 40% 0%;
+	margin: 40% 22% 40% 0%;
 }
 .blue_flower_talk_onTheWay{
-	margin: 30% 30% 0% 30%;
+	margin: auto;
 }
 .talk_onTheWay_sentence{
 	text-align: center;
@@ -99,11 +99,12 @@ margin: 0% 10%;
 }
 .last_Introduction_img{
 	width: 50%;
-	padding: 0px 0px 0px 270px;
+	/* padding: 0px 0px 0px 270px; */
+	margin: auto;
 }
 .last_Introduction_sentence{
 	text-align: center;
-	padding: 0px 300px 0px 0px;
+	margin: auto;
 }
 .Image_of_person{
 	width: 100%;
@@ -120,6 +121,10 @@ margin: 0% 10%;
 	right: 0;
 	width: 100%;
 	height: 100%;
+  }
+
+  footer{
+	  
   }
 
 
@@ -142,7 +147,7 @@ margin: 0% 10%;
 		font-size: 1px;
 	}
 	.blue_flower{
-		margin: 30% 0% 0% 0%;
+		margin:auto;
 		width: 50%;
 	}
 	.blue_flower_2{
@@ -160,11 +165,11 @@ margin: 0% 10%;
 	}
 	.last_Introduction_img{
 		width: 70%;
-		padding: 0px 0px 0px 50px;
+		/* padding: 0px 0px 0px 50px; */
 	}
 	.last_Introduction_sentence{
 		text-align: center;
-		padding: 0px 0px 0px 0px;
+		/* padding: 0px 0px 0px 0px; */
 	}
 	.talkN{
 	overflow: hidden;
